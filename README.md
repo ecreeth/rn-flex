@@ -28,7 +28,7 @@
 #### `wrap`
 |  Property   |   Type  | Required | Default |
 |------------|--------|---------|---------|
-| `nowrap`      | string  |no|-|
+| `nowrap`      | string  |no| **yes**|
 | `wrap`      | string  |no|-|
 | `wrap-reverse`      | string  |no|-|
 ## Quick Start
