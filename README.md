@@ -56,7 +56,7 @@ function App() {
   return (
     <View>
        <Text>Default Behavior</Text>
-        <Flex>
+        <Flex direction="row" justify="space-around" align="center">
           <Red />
           <Green />
           <Blue />
