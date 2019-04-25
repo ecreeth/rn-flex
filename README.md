@@ -1,7 +1,5 @@
 # @ecreeth/rn-flex
 
-Created by [ecreeth](https://github.com/ecreeth)
-
 ## Introduction
 
 * React Native FlexBox
