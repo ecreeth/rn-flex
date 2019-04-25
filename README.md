@@ -1,28 +1,36 @@
 # @ecreeth/rn-flex
 
 ## Flex Component Props
-##### `direction`
-- `row`
-- `row-reverse`
-- `column`
-- `column-reverse`
-##### `justify`
-- `flex-start`
-- `flex-end`
-- `center`
-- `space-between`
-- `space-around`
-- `space-evenly`
-##### `align`
-- `flex-start`
-- `flex-end`
-- `center`
-- `baseline`
-- `stretch`
-##### `wrap`
-- `nowrap`
-- `wrap`
-- `wrap-reverse`
+#### `direction`
+|  Property   |   Type  | Required |
+|------------|--------|---------|
+| `row `      | string  |no|
+| `row-reverse `      | string  |no|
+| `column `      | string  |no|
+| `column-reverse `      | string  |no|
+#### `justify`
+|  Property   |   Type  | Required |
+|------------|--------|---------|
+| `flex-start `      | string  |no|
+| `flex-end `      | string  |no|
+| `center `      | string  |no|
+| `space-between `      | string  |no|
+| `space-around `      | string  |no|
+| `space-evenly `      | string  |no|
+#### `align`
+|  Property   |   Type  | Required |
+|------------|--------|---------|
+| `flex-start `      | string  |no|
+| `flex-end `      | string  |no|
+| `center `      | string  |no|
+| `baseline `      | string  |no|
+| `stretch `      | string  |no|
+#### `wrap`
+|  Property   |   Type  | Required |
+|------------|--------|---------|
+| `nowrap`      | string  |no|
+| `wrap`      | string  |no|
+| `wrap-reverse`      | string  |no|
 ## Quick Start
 
 ### Installation
