@@ -48,3 +48,21 @@ Install `@ecreeth/rn-flex` to your project:
 $ yarn add @ecreeth/rn-flex or
 $ npm install @ecreeth/rn-flex
 ```
+
+### Examples
+#### Justify
+```jsx
+function App() {
+  return (
+    <View>
+       <Text>Default Behavior</Text>
+        <Flex>
+          <Red />
+          <Green />
+          <Blue />
+        </Flex>
+    </View>
+  );
+}
+```
+
