@@ -2,35 +2,35 @@
 
 ## Flex Component Props
 #### `direction`
-|  Property   |   Type  | Required |
-|------------|--------|---------|
-| `row `      | string  |no|
-| `row-reverse `      | string  |no|
-| `column `      | string  |no|
-| `column-reverse `      | string  |no|
+|  Property   |   Type  | Required | Default |
+|------------|--------|---------|---------|
+| `row `      | string  | no | -|
+| `row-reverse `      | string  | no | - |
+| `column `      | string  | no | **yes** |
+| `column-reverse `      | string  | no | -|
 #### `justify`
-|  Property   |   Type  | Required |
-|------------|--------|---------|
-| `flex-start `      | string  |no|
-| `flex-end `      | string  |no|
-| `center `      | string  |no|
-| `space-between `      | string  |no|
-| `space-around `      | string  |no|
-| `space-evenly `      | string  |no|
+|  Property   |   Type  | Required | Default |
+|------------|--------|---------|---------|
+| `flex-start `      | string  |no|**yes**|
+| `flex-end `      | string  |no|-|
+| `center `      | string  |no|-|
+| `space-between `      | string  |no|-|
+| `space-around `      | string  |no|-|
+| `space-evenly `      | string  |no|-|
 #### `align`
-|  Property   |   Type  | Required |
-|------------|--------|---------|
-| `flex-start `      | string  |no|
-| `flex-end `      | string  |no|
-| `center `      | string  |no|
-| `baseline `      | string  |no|
-| `stretch `      | string  |no|
+|  Property   |   Type  | Required | Default |
+|------------|--------|---------|---------|
+| `flex-start `      | string  |no| - |
+| `flex-end `      | string  |no| - |
+| `center `      | string  |no| - |
+| `baseline `      | string  |no| - |
+| `stretch `      | string  |no| **yes** |
 #### `wrap`
-|  Property   |   Type  | Required |
-|------------|--------|---------|
-| `nowrap`      | string  |no|
-| `wrap`      | string  |no|
-| `wrap-reverse`      | string  |no|
+|  Property   |   Type  | Required | Default |
+|------------|--------|---------|---------|
+| `nowrap`      | string  |no|-|
+| `wrap`      | string  |no|-|
+| `wrap-reverse`      | string  |no|-|
 ## Quick Start
 
 ### Installation
