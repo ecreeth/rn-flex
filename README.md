@@ -11,18 +11,6 @@
 [travis-image]: https://travis-ci.org/blankapp/ui.svg?branch=master
 [travis-url]: https://travis-ci.org/blankapp/ui
 
-Table of Contents
-=================
-
-  * [Introduction](#introduction)
-      * [Features](#features)
-  * [Quick Start](#quick-start)
-      * [Prerequisites](#prerequisites)
-      * [Installation](#installation)
-      * [Run the new app](#run-the-new-app)
-  * [Discussion](#discussion)
-  * [License](#license)
-
 Created by [ecreeth](https://github.com/ecreeth)
 
 ## Introduction
@@ -31,10 +19,10 @@ Created by [ecreeth](https://github.com/ecreeth)
 
 ### Features
 
-- Lightly dependency, very little dependency
-- Global theming, a variety of style selector implementation
-- Rich base components
-- Friendly API design
+- Feature one
+- Feature two
+- Feature three
+- Feature four
 
 ## Quick Start
 
