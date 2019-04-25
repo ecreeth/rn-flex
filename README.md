@@ -31,6 +31,10 @@
 | `nowrap`      | string  |no| **yes**|
 | `wrap`      | string  |no|-|
 | `wrap-reverse`      | string  |no|-|
+#### `flex`
+|  Property   |   Type  | Required | Default |
+|------------|--------|---------|---------|
+| `flex`      | string  |no| **1**|
 ## Quick Start
 
 ### Installation
