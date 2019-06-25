@@ -54,7 +54,6 @@ $ npm install @ecreeth/rn-flex
 ```
 
 ### Examples
-#### Justify
 ```jsx
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
@@ -63,11 +62,13 @@ import Flex from "@ecreeth/rn-flex";
 function App() {
   return (
     <View style={styles.container}>
-      <Text>Default Behavior</Text>
+      <Flex flex={0.1} justify="center" direction="row" align="flex-end">
+        <Text>Default Behavior</Text>
+      </Flex>
       <Flex direction="row" justify="space-around" align="center">
-        <View style={styles.red} />
-        <View style={styles.blue} />
-        <View style={styles.green} />
+        <View style={[styles.box, styles.red]} />
+        <View style={[styles.box, styles.blue]} />
+        <View style={[styles.box, styles.green]} />
       </Flex>
     </View>
   );
@@ -78,20 +79,19 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 10
   },
-  red: {
-    flex: 1,
+  box: {
+    width: 200,
     height: 200,
-    backgroundColor: "red"
+    borderRadius: 5
+  },
+  red: {
+    backgroundColor: "#f5222d"
   },
   blue: {
-    flex: 1,
-    height: 200,
-    backgroundColor: "blue"
+    backgroundColor: "#096dd9"
   },
   green: {
-    flex: 1,
-    height: 200,
-    backgroundColor: "green"
+    backgroundColor: "#237804"
   }
 });
 
