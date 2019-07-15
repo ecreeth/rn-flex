@@ -2,7 +2,12 @@
   "name": "@ecreeth/rn-flex",
   "version": "0.0.2",
   "description": "React Native Flexbox Component",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "flow": "flow"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ecreeth/rn-flex"
@@ -16,6 +21,8 @@
   "author": "eCreeth <luismiguel1730@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "prop-types": "^15.6.2"
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.102.0"
   }
 }
