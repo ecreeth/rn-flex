@@ -1,22 +1,23 @@
 import React from "react";
-import { View } from "react-native";
-import PropTypes from "prop-types";
+import {View} from "react-native";
+import {oneOf, number} from "prop-types";
 
 const propTypes = {
-  direction: PropTypes.oneOf(["row", "row-reverse", "column", "column-reverse"]),
-  wrap: PropTypes.oneOf(["nowrap", "wrap", "wrap-reverse"]),
-  justify: PropTypes.oneOf(["flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly"]),
-  align: PropTypes.oneOf(["flex-start", "flex-end", "center", "baseline", "stretch"]),
-  flex: PropTypes.number
+  direction: oneOf(["row", "row-reverse", "column", "column-reverse"]),
+  wrap: oneOf(["nowrap", "wrap", "wrap-reverse"]),
+  justify: oneOf(["flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly"]),
+  align: oneOf(["flex-start", "flex-end", "center", "baseline", "stretch"]),
+  flex: number
 };
 
 const defaultProps = {
   flex: 1
 };
 
-export default function Flex(props) {
-  const { style, direction, wrap, justify, align, children, flex, ...restProps } = props;
-
+export default function Flex({
+  style, direction, wrap, justify, align, children, flex, ...props
+}) {
+  
   const flexStyle = {
     flexDirection: direction,
     flexWrap: wrap,
@@ -26,7 +27,7 @@ export default function Flex(props) {
   };
 
   return (
-    <View style={[flexStyle, style]} {...restProps}>
+    <View style={[flexStyle, style]} {...props}>
       {children}
     </View>
   );
